@@ -1,0 +1,98 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(227, 141, 193);
+    font-family: Roboto Condensed;
+}
+.d1{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    flex-direction: column;
+    border-radius: 20px;
+    top: 10%;
+    background-color: white;
+}
+#img1{
+    position: relative;
+    width: 100%;
+    top: 0;
+    border-radius:20px 20px 0 0;
+}
+.b1{
+    width: 80%;
+    height: 45px;
+    background-color: darkviolet;
+    border-radius: 5px;
+    color: white;
+    margin-top: 5%;
+    font-size: 17px;
+
+}
+.b1:hover{
+    cursor: pointer;
+    background-color: violet;
+
+}
+.b2:hover{
+    cursor: pointer;
+    color: darkviolet;
+
+}
+.b2{
+    border: none;
+    margin-bottom: 5%;
+    background-color: white;
+    font-size: 1.1em;
+}
+#d2{
+    position: relative;
+    width: 80%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(213, 216, 205);
+    padding: 10px;
+    border-radius: 10px;
+
+}
+#img2{
+    position: relative;
+    height: 100%;
+    border-radius: 50%;
+}
+#prix{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+h4{
+    position: absolute;
+    margin-top: 1px;
+}
+#p2{
+    position: absolute;
+    margin-bottom: -15px;
+}
+#change{
+    text-decoration: none;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;;
+}
+.attribution{
+    position: absolute;
+    right: 100px;
+    bottom: 0px;
+}
+#p1{
+    font-size: 1.1em;
+    width: 80%;
+}
